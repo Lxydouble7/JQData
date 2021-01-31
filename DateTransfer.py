@@ -26,7 +26,8 @@ def next2monthend(date):
     date = date + relativedelta(months=3)
     return date
 
-# print(last3monthstart('2014-3-31'))
+
+print(last3monthstart('2020-3-31'))
 # print(nextmonthstart('2014-3-31'))
 # print(nextmonthend('2014-3-31'))
 # print(next2monthstart('2014-3-31'))
